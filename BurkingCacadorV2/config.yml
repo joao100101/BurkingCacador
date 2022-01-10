@@ -1,0 +1,57 @@
+Premio: 5000
+Chamadas: 5
+TimeSpawnPorco: 15
+DuracaoEvento: 5
+Tag: '&7[&5Cacador&7]'
+NomePorco: '&bLeitao Gordao'
+SemPermissao: '&3[BurkingCacador] &cVoce nao possui permissao.'
+NaoPossivel: '&3[BurkingCacador] &cO evento nao pode ser iniciado! Nao foi preparado,
+  ja esta iniciado ou faltam players.'
+Entrou: '&3[BurkingCacador] &5Voce entrou no &eLobby &5aguarde o Inicio...'
+Saiu: '&3[BurkingCacador] &cVoce saiu do evento.'
+Cancelado: '&3[BurkingCacador] &6Evento cancelado...'
+SemEvento: '&3[BurkingCacador] &cNenhum evento acontecendo.'
+JaSaiu: '&3[BurkingCacador] &cVoce nao pode voltar no evento pois ja foi eliminado
+  ou saiu.'
+Comecou: '&3[BurkingCacador] &aValendo! Boa Sorte!'
+Dentro: '&3[BurkingCacador] &cVoce ja esta no evento.'
+NaoEsta: '&3[BurkingCacador] &cVoce nao esta no evento para poder sair.'
+JaIniciado: '&3[BurkingCacador] &cO evento ja esta iniciado'
+JaPreparado: '&3[BurkingCacador] &cO evento ja esta preparado. Inicie com &f/iniciarcc'
+Inventario: '&3[BurkingCacador] &cEsvazie seu inventario e armadura para poder entrar.'
+Iniciando: '&3[BurkingCacador] &6Iniciando evento...'
+Comandos: '&3[BurkingCacador] &cVoce nao pode digitar este comando durante o evento.'
+Abandonou: '&3[BurkingCacador] &e@player &5saiu do evento!'
+Anuncio:
+- ' '
+- '&3[BurkingCacador] &dEvento &fCacador &daberto!'
+- '&3[BurkingCacador] &dDigite &f/cacador entrar &dpara entrar.'
+- '&3[BurkingCacador] &dRestam: &f@chamadas &dchamadas'
+- '&3[BurkingCacador] &dPremio: &f5000'
+- ' '
+AnuncioVitoria:
+- ' '
+- '&3[BurkingCacador] &e@player &dvenceu o evento.'
+- '&3[BurkingCacador] &dPontuacao: &f@pontos'
+- '&3[BurkingCacador] &dEle ganhou &f$5000'
+- '&3[BurkingCacador] &dParabens!'
+- ' '
+SemGanhadores:
+- ' '
+- '&3[BurkingCacador] &cNao houve vencedores.'
+- '&3[BurkingCacador] &cEvento terminado.'
+- ' '
+Item:
+  id: 276
+  title: '&e&lEspada de Cacador'
+  lore:
+  - '&cEspada do evento &fCacador'
+  enchants: []
+AllowCommands:
+- /cacador
+- /cacador sair
+- /iniciarcc
+- /cancelarcc
+- /ban
+- /kick
+VencedorAtual: Z3BRUNA

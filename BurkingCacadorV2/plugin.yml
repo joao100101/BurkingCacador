@@ -1,0 +1,10 @@
+name: "BurkingCacador"
+api: []
+version: "1.0"
+api-version: 1.13
+main: me.joao.cacador.Main
+commands:
+    consolecc:
+      description: iniciar cacador
+    cacador:
+      description: comando principal
